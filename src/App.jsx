@@ -10,12 +10,14 @@ function App() {
   return (
     // Routes container chứa tất cả các route định nghĩa
     <Routes>
+      <Route path="/Deploy" element={<Contacts />}>
       {/* Route cho trang chủ - hiển thị danh sách contacts */}
-      <Route path="/" element={<Contacts />} />
+      <Route index element={<Contacts />} />
       {/* Route cho trang thêm contact mới */}
       <Route path="/add" element={<AddContact />} />
       {/* Route cho trang chỉnh sửa contact, :id là dynamic parameter */}
       <Route path="/edit/:id" element={<EditContact />} />
+      </Route>
     </Routes>
   );
 }
