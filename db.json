@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Tommy",
+      "email": "tom@example.com",
+      "phone": "0123456789",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Jerry",
+      "email": "jerry@example.com",
+      "phone": "0987654321",
+      "image": "blob:http://localhost:5173/8571526a-f39d-422e-aeff-e4bf46eec504"
+    },
+    {
+      "id": "2739",
+      "image": "blob:http://localhost:5173/4e884b56-4482-4c56-9448-93553e7bf5c7",
+      "name": "Nhi",
+      "email": "lyly@gmail.com",
+      "phone": "0987129346"
+    }
+  ]
+}
